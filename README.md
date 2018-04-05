@@ -19,7 +19,7 @@ Jenkins.instance.pluginManager.plugins.each{
 ## To start run
 
   ```
-  docker run -p 8081:8080 -p 50001:50000 ljenkins-image-name:latest
+  docker run -p 8081:8080 -p 50001:50000 jenkins-image-name:latest
   ```
   
 ## Copy existing jobs
