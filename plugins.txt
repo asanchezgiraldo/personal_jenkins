@@ -27,6 +27,7 @@ jsch:0.1.54.2
 workflow-durable-task-step:2.19
 github-api:1.90
 workflow-step-api:2.14
+job-import-plugin:2.1
 pubsub-light:1.12
 pipeline-model-api:1.2.7
 plain-credentials:1.4
