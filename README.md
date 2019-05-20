@@ -5,6 +5,7 @@ Docker base jenkins to do POCs
 
   ```
   docker build -t jenkins-image-name --no-cache --force-rm=true .
+  docker build -t alej-jenkins --no-cache --force-rm=true .
   ```
 
 
@@ -19,7 +20,7 @@ Jenkins.instance.pluginManager.plugins.each{
 ## To start run
 
   ```
-  docker run -p 8081:8080 -p 50001:50000 jenkins-image-name:latest
+  docker run -p 8081:8080 -p 50000:50000 alej-jenkins:latest
   ```
   
 ## Copy existing jobs
