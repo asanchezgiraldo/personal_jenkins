@@ -39,13 +39,13 @@ Jenkins.instance.pluginManager.plugins.each{
   ```
   
 - [ ] Enter Admin password
-![Enter Admin Password](/resources/admin_password.jpg)
+![Enter Admin Password](/resources/admin_password.png)
 
 
 - [ ] Install suggested Plugins
 
 - [ ] Create User
-![Enter Admin Password](/resources/create_user.jpg)
+![Enter Admin Password](/resources/create_user.png)
 
 
   
