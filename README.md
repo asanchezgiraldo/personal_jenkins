@@ -21,7 +21,7 @@ Jenkins.instance.pluginManager.plugins.each{
     println ("${plugin.getShortName()}:${plugin.getVersion()}")
 }
 ```
-![Script and outpur](/resources/script_and_output.jpg)
+![Script and output](/resources/script_and_output.jpg)
 
 
 - [ ] Copy list on plugin.txt file in the root folder
@@ -37,6 +37,17 @@ Jenkins.instance.pluginManager.plugins.each{
   ```
   docker run -p 8081:8080 -p 50000:50000 <jenkins-image-name>:latest
   ```
+  
+- [ ] Enter Admin password
+![Enter Admin Password](/resources/admin_password.jpg)
+
+
+- [ ] Install suggested Plugins
+
+- [ ] Create User
+![Enter Admin Password](/resources/create_user.jpg)
+
+
   
 ## Copy existing jobs
 
